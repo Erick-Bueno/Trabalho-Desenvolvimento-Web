@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    display: flex;
+    width: 100%;
+    background-color: rgb(195, 7, 57);
+    padding: 0.5em;
+    justify-content: space-between;
+
+   
+   
+}
+.logo{
+    width: 10em;
+   
+   
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    margin-top: 2rem;
+  
+   
+   
+}
+.navbar ul li{
+    
+    font-size: 1.1em;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-left:1.5rem ;
+   
+}
+.navbar ul li:hover{
+    color: rgba(133, 132, 129, 0.931);
+}
+
+ .slogan{
+     background-image: url("./images/pizza-background.jpg");
+    background-size: cover;     
+    text-align: center;
+    padding-top: 9.375rem;
+    padding-bottom: 9.375rem;
+    background-repeat: no-repeat;
+    position: relative;
+    
+
+   
+} 
+.tit1{
+    
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4em;
+    font-weight: bolder;
+    padding-bottom: 3rem;
+    color:  rgb(195, 7, 57) ;
+    font-weight: bolder;
+   
+}
+.subtit1{
+    
+    font-weight: bolder;
+    padding-bottom: 3rem;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+}
+.button1{
+    padding: 0.413rem;
+    border: none;
+    background-color: rgb(195, 7, 57) ;
+    color: white;
+    border-radius: 0.75rem;
+    width: 280px;
+    cursor: pointer;
+    font-weight: bolder;
+    transition: 0.2s;
+}
+.button1:hover{
+    background-color:rgb(128, 7, 39) ;
+}
+.about{
+    background-color:  rgb(195, 7, 57) ;
+    text-align: center;
+    padding-top: 4.375rem;
+    padding-bottom: 4.375rem;
+    
+}
+.tit2{
+    color: white;
+    font-size: 4em;
+    font-family: 'Bebas Neue', cursive;
+}
+.subtit2{
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    padding-top: 1.25rem;
+}
+.button2{
+    margin-top: 1.25rem;
+    padding: 0.413rem;
+    width: 280px;
+    background-color:transparent;
+    font-weight: bolder;
+    border-radius: 0.75rem;
+    border: 2px solid white;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    color: white;
+    
+}
+.button2:hover{
+    background-color: white;
+    color: black;
+}
+.tit3{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4em;
+    font-weight: bolder;
+    padding-bottom: 2rem;
+    color:  rgb(195, 7, 57) ;
+    font-weight: bolder;
+    padding-top: 2rem ;
+    text-align: center;
+}
+.container-services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service{
+    width: 300px;
+    text-align: center;
+   
+}
+.tit4{
+    margin-bottom: 1.25rem;
+    margin-top: 0.313rem;
+    font-size: 1.5rem;
+    font-family:'Bebas Neue', cursive; ;
+    color:  rgb(195, 7, 57) ;
+}
+.service p{
+    font-weight: bolder;
+}
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:rgb(195, 7, 57)  ;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+.photos img{
+    width: 400px;
+}
+.tit5{
+    text-align: center;
+    margin-bottom: 1.25rem;
+    margin-top: 4rem;
+    font-size: 4rem;
+    font-family:'Bebas Neue', cursive; ;
+    color:  rgb(195, 7, 57) ;
+}
+.contact{
+    font-weight: bolder;
+    color: white;
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+}
+.telefone{
+    margin-bottom: 10px;
+}
+.rodape{
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+    background-color:rgb(195, 7, 57)  ;
+    padding: 2rem;
+    color: white;
+    font-weight: bolder;
+    
+   
+}
+.container-geral {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+.container-top{
+    flex:1;
+}
